@@ -8,12 +8,6 @@ RUN npm install
 
 COPY . .
 
-ENV PORT=3001 \
-    DB=hello \
-    DBUSER=kaizen \
-    DBPASS=kaizen123 \
-    DBHOST=database-1-instance-1.c2stnmbcgxuw.us-east-2.rds.amazonaws.com \
-    DBPORT=3306
 
 EXPOSE 3001
 
